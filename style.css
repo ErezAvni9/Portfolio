@@ -1,0 +1,135 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #2596be, #90a750);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  /* Default styles for all devices */
+
+/* Media Query for Small Devices (Mobile Phones) */
+@media only screen and (max-width: 576px) {
+  /* Styles for small devices */
+}
+
+/* Media Query for Medium Devices (Tablets) */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  /* Styles for medium devices */
+}
+
+/* Media Query for Large Devices (Desktops, Laptops) */
+@media only screen and (min-width: 993px) {
+  /* Styles for large devices */
+}
+
+/* Media Query for Landscape Orientation */
+@media only screen and (orientation: landscape) {
+  /* Styles for landscape orientation */
+}
+
+/* Media Query for Portrait Orientation */
+@media only screen and (orientation: portrait) {
+  /* Styles for portrait orientation */
+}
+
+/* Media Query for High-Resolution Devices (Retina Displays, High-DPI screens) */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min-resolution: 192dpi) {
+  /* Styles for high-resolution devices */
+}
+
+
+  h1 {
+    color: hsl(195, 100%, 50%);
+    font-size: 5.625rem;
+    /* margin: 50px auto 0 auto; */
+    font-family: "Sacramento", cursive;
+    /* text-align:right; */
+    /* font-size: 5.625rem; */
+    /* margin: 70px auto 0 auto; */
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+p {
+    /* text-align: center; */
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 6rem;
+    color: yellow;
+    
+    display: block;
+    margin-block-start: 0px;
+    
+}
+
+.lead {
+  font-size: 2.5rem;
+}
+
+
+
+
+.profile-img {
+  border-radius: 50%;
+  height: 150px;
+ text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.text-body-emphasis{
+  font-size: 70px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.text-body-emphasis2 {
+  color: #2580a7;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+.text-body-emphasis3 {
+  color: #2580a7;
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+code {
+  font-size: 20px;
+}
+
+.btn {
+  height: 50px;
+  width: 200px;
+  /* color: white; */
+  background-color: #90a750;
+  font-size: large;
+  margin-top: 50px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  font-size: 1.17em;
+  margin-top: 50px;
+}
+
+span {
+  align-items: center;
+}
+
+p, text {
+  font-size: small;
+  
+}
+
+.footer {
+ background-color: cadetblue ;
+}
